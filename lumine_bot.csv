@@ -1,52 +1,52 @@
 Keywords,Utterances,Responses
-"Greeting, Hi, Hello, Hey, Yo, Greetings, Morning, Evening","Hi, Is anyone there?, Hello Lumine","Hello! Welcome to Lumine. How can I help you find something special today?"
-"Catalog, Shop, Browse, Inventory, Collection, Items, Stock, List","What do you sell?, Show me the clothes, Jewelry list","Lumine offers a curated collection of premium clothing and accessories. You can browse our full catalog here: [Link]."
-"New, Arrivals, Latest, Recent, Drops, Fresh, Release, Modern","What's new?, Latest drops, Recent collection","Fresh styles just landed at Lumine! Check out our newest additions here: [Link]."
+"Greeting, Hi, Hello, Hey, Yo, Greetings, Morning, Evening","Hi, Is anyone there?, Hello Lumine",Hello! Welcome to Lumine. How can I help you find something special today?
+"Catalog, Shop, Browse, Inventory, Collection, Items, Stock, List","What do you sell?, Show me the clothes, Jewelry list",Lumine offers a curated collection of premium clothing and accessories. You can browse our full catalog here: [Link].
+"New, Arrivals, Latest, Recent, Drops, Fresh, Release, Modern","What's new?, Latest drops, Recent collection",Fresh styles just landed at Lumine! Check out our newest additions here: [Link].
 "Size, Sizing, Fit, Measurements, Chart, Large, Small, Medium, Guide","Size chart, Does it fit true to size?, Measurements","To find your perfect fit, please refer to the Lumine size guide located on each product page or here: [Link]."
 "Material, Fabric, Metal, Gold, Silver, Cotton, Polyester, Quality","What fabric is this?, Is it gold plated?, Material info","At Lumine, we prioritize quality. Our clothes use premium fabrics and our jewelry is designed for durability. Details are on every product page."
-"Restock, Available, Back, Waiting, Notify, Sold Out, Stocked","When will it be back?, Out of stock, Notify me when back","Some Lumine items go fast! Sign up for 'Back in Stock' alerts on the product page to be the first to know when it returns."
+"Restock, Available, Back, Waiting, Notify, Sold Out, Stocked","When will it be back?, Out of stock, Notify me when back",Some Lumine items go fast! Sign up for 'Back in Stock' alerts on the product page to be the first to know when it returns.
 "Care, Wash, Cleaning, Laundry, Maintenance, Polish, Dirty","How to wash, Cleaning jewelry, Laundry tips","To keep your Lumine items looking new, we recommend cold washes for clothes and keeping jewelry away from harsh chemicals."
-"Price, Cost, Amount, Expensive, Cheap, Pricing, Value, Fee","How much?, Price range, What is the cost?","Our prices vary by collection. You can filter the Lumine shop by price to find something that fits your budget."
-"Discount, Promo, Sale, Coupon, Offer, Deal, Cheap, Markdown","Promo codes, Any sales?, Is there a discount?","We love a good deal! Check our 'Sale' section or subscribe to the Lumine newsletter for exclusive offers."
-"First, Welcome, Newbie, Signup, Join, Starter, Beginner","New customer, First time buyer, Welcome gift","Welcome to Lumine! Use code LUMINE10 at checkout for a special discount on your first purchase."
-"Shipping, Delivery, Courier, Postage, Transport, Send, Mail","Delivery fee, Is shipping free?, Postage costs","We offer standard and express shipping. Orders over [Amount] qualify for free shipping!"
-"Time, Duration, Arrival, When, Days, Wait, Schedule, Date","How long for delivery?, When will it arrive?","Standard shipping usually takes 3-5 business days. You'll receive a tracking link as soon as your Lumine order leaves our warehouse."
+"Price, Cost, Amount, Expensive, Cheap, Pricing, Value, Fee","How much?, Price range, What is the cost?",Our prices vary by collection. You can filter the Lumine shop by price to find something that fits your budget.
+"Discount, Promo, Sale, Coupon, Offer, Deal, Cheap, Markdown","Promo codes, Any sales?, Is there a discount?",We love a good deal! Check our 'Sale' section or subscribe to the Lumine newsletter for exclusive offers.
+"First, Welcome, Newbie, Signup, Join, Starter, Beginner","New customer, First time buyer, Welcome gift",Welcome to Lumine! Use code LUMINE10 at checkout for a special discount on your first purchase.
+"Shipping, Delivery, Courier, Postage, Transport, Send, Mail","Delivery fee, Is shipping free?, Postage costs",We offer standard and express shipping. Orders over [Amount] qualify for free shipping!
+"Time, Duration, Arrival, When, Days, Wait, Schedule, Date","How long for delivery?, When will it arrive?",Standard shipping usually takes 3-5 business days. You'll receive a tracking link as soon as your Lumine order leaves our warehouse.
 "Global, International, Abroad, Overseas, Worldwide, Export, Country","Do you ship abroad?, Global shipping, Overseas","Yes, Lumine ships to many countries worldwide! Shipping rates and times will be calculated at checkout."
-"Track, Status, Package, Parcel, Where, Progress, Location","Where is my order?, Track package, Order status","You can track your Lumine journey! Enter your order number here: [Link to Tracking Page]."
+"Track, Status, Package, Parcel, Where, Progress, Location","Where is my order?, Track package, Order status",You can track your Lumine journey! Enter your order number here: [Link to Tracking Page].
 "Modify, Change, Edit, Add, Update, Correct, Mistake, Wrong","Change my order, Add an item, Edit address","If your order hasn't shipped yet, we may be able to help. Please reach out with your order number immediately."
-"Cancel, Stop, Terminate, Remove, Refund, Void, End","Cancel my order, I want to stop my order","Orders can be cancelled within [Number] hours of placement. Contact the Lumine support team ASAP."
+"Cancel, Stop, Terminate, Remove, Refund, Void, End","Cancel my order, I want to stop my order",Orders can be cancelled within [Number] hours of placement. Contact the Lumine support team ASAP.
 "Return, Exchange, Swap, Refund, Back, Policy, Moneyback","How do I return?, Refund policy, Exchange","We want you to love your Lumine purchase. If not, you can return items within 30 days. View our policy here: [Link]."
-"Damaged, Broken, Torn, Faulty, Ruined, Bad, Defect, Issue","Broken jewelry, Ripped clothes, Faulty product","We are so sorry! Please send a photo of the damage and your order number to the Lumine team so we can fix it."
+"Damaged, Broken, Torn, Faulty, Ruined, Bad, Defect, Issue","Broken jewelry, Ripped clothes, Faulty product",We are so sorry! Please send a photo of the damage and your order number to the Lumine team so we can fix it.
 "Pay, Payment, Checkout, Card, Mpesa, Cash, Billing, Transaction","How can I pay?, M-Pesa, Credit card","We accept all major credit cards, PayPal, and local mobile payment options like M-Pesa."
 "Gift, Wrap, Box, Present, Packaging, Birthday, Holiday, Message","Is there a gift box?, Gift message, Wrapping","Our jewelry comes in signature Lumine packaging. For clothing, you can add a gift box option at checkout!"
-"Voucher, Giftcard, Certificate, Balance, Credit, Redeem","Buy a voucher, Gift certificate, Balance","Not sure what to pick? Lumine digital gift cards are the perfect solution. You can find them here: [Link]."
+"Voucher, Giftcard, Certificate, Balance, Credit, Redeem","Buy a voucher, Gift certificate, Balance",Not sure what to pick? Lumine digital gift cards are the perfect solution. You can find them here: [Link].
 "Store, Shop, Location, Address, Visit, Physical, Branch, Nearby","Do you have a shop?, Physical location, Visit us","Currently, Lumine is an online-only brand, which allows us to bring you the best prices directly."
-"Wholesale, Bulk, B2B, Business, Supplier, Inventory, Volume","Bulk order, Business inquiry, Wholesale","Interested in carrying Lumine? Please email our wholesale team at [Email Address] for more info."
-"Collab, Influencer, Partner, Promote, Brand, Ambassador, PR","Influencer, Promote, Partnership","Lumine loves working with creators! Please send your portfolio or social handles to our marketing team."
-"Login, Account, Password, Profile, Access, Signin, Reset, User","Reset password, Can't log in, Account help","No problem! You can reset your Lumine password at the login screen or contact us for help."
+"Wholesale, Bulk, B2B, Business, Supplier, Inventory, Volume","Bulk order, Business inquiry, Wholesale",Interested in carrying Lumine? Please email our wholesale team at [Email Address] for more info.
+"Collab, Influencer, Partner, Promote, Brand, Ambassador, PR","Influencer, Promote, Partnership",Lumine loves working with creators! Please send your portfolio or social handles to our marketing team.
+"Login, Account, Password, Profile, Access, Signin, Reset, User","Reset password, Can't log in, Account help",No problem! You can reset your Lumine password at the login screen or contact us for help.
 "Human, Agent, Person, Live, Support, Help, Talk, Customer, Speak","Talk to a person, Customer service, Live Chat","I can help with most things, but if you need a human, the Lumine team is available via email or Live Chat."
-"Feedback, Review, Complaint, Suggestion, Comment, Rating, Bad","Review, Leave a comment, Feedback","We value your input! You can leave a review on the product page or send your Lumine feedback directly."
+"Feedback, Review, Complaint, Suggestion, Comment, Rating, Bad","Review, Leave a comment, Feedback",We value your input! You can leave a review on the product page or send your Lumine feedback directly.
 "Hours, Open, Close, Time, Schedule, Operating, Sunday, Weekend","When are you open?, Support hours","Our online shop is open 24/7! Our customer support team is active Mon-Fri, 9 AM to 5 PM."
-"Eco, Green, Sustainable, Ethical, Organic, Environment, Planet","Eco-friendly, Ethical, Organic cotton","Lumine is committed to better practices. Read about our sustainability journey here: [Link]."
-"Style, Outfit, Look, Match, Wear, Fashion, Tips, Advice","What matches this?, Outfit ideas, Styling","Check out the 'Shop the Look' section or follow Lumine on social media for daily inspiration!"
-"Gender, Men, Women, Unisex, Male, Female, Boy, Girl","Menswear, Womenswear, Unisex","Lumine offers styles for everyone! Use our 'Filter' tool to browse by category or gender preference."
+"Eco, Green, Sustainable, Ethical, Organic, Environment, Planet","Eco-friendly, Ethical, Organic cotton",Lumine is committed to better practices. Read about our sustainability journey here: [Link].
+"Style, Outfit, Look, Match, Wear, Fashion, Tips, Advice","What matches this?, Outfit ideas, Styling",Check out the 'Shop the Look' section or follow Lumine on social media for daily inspiration!
+"Gender, Men, Women, Unisex, Male, Female, Boy, Girl","Menswear, Womenswear, Unisex",Lumine offers styles for everyone! Use our 'Filter' tool to browse by category or gender preference.
 "Hat, Bag, Belt, Scarf, Wallet, Eyewear, Accessory, Wearable","Hats, Bags, Belts","Beyond jewelry, Lumine has a great range of lifestyle accessories. Browse the full collection here: [Link]."
 "Christmas, Holiday, Eid, Easter, Season, Delivery, Cutoff","Christmas delivery, Holiday cut-off","During the holidays, we recommend ordering by [Date] to ensure your Lumine gifts arrive on time!"
-"Secure, Safe, Privacy, Data, Encryption, Protection, Trust","Is my data safe?, Secure checkout","Your security is our priority. Lumine uses industry-standard encryption to keep your info safe."
-"Job, Career, Hire, Work, Apply, Vacancy, Employment, Team","Are you hiring?, Work for you, Vacancies","Lumine is always looking for talent! Check our Careers page for any open positions: [Link]."
-"Newsletter, Email, Subscribe, Update, News, Join, List","Subscribe, Email updates, Sign up","Stay in the loop! Sign up for the Lumine newsletter for early access to drops and sales."
-"Unsubscribe, Stop, Remove, Leave, Cancel, Spam","Stop emails, Remove from list","We’ll miss you! You can click 'Unsubscribe' at the bottom of any Lumine email."
-"Wishlist, Favorite, Save, Heart, Later, List","Save for later, Favorite items","Heart your favorite items to save them to your Lumine wishlist so you can find them easily later."
+"Secure, Safe, Privacy, Data, Encryption, Protection, Trust","Is my data safe?, Secure checkout",Your security is our priority. Lumine uses industry-standard encryption to keep your info safe.
+"Job, Career, Hire, Work, Apply, Vacancy, Employment, Team","Are you hiring?, Work for you, Vacancies",Lumine is always looking for talent! Check our Careers page for any open positions: [Link].
+"Newsletter, Email, Subscribe, Update, News, Join, List","Subscribe, Email updates, Sign up",Stay in the loop! Sign up for the Lumine newsletter for early access to drops and sales.
+"Unsubscribe, Stop, Remove, Leave, Cancel, Spam","Stop emails, Remove from list",We’ll miss you! You can click 'Unsubscribe' at the bottom of any Lumine email.
+"Wishlist, Favorite, Save, Heart, Later, List","Save for later, Favorite items",Heart your favorite items to save them to your Lumine wishlist so you can find them easily later.
 "Confirm, Email, Notification, Proof, Receipt, Verification","Order confirmation, Didn't get email","Check your spam first! If it's not there, let the Lumine team know and we’ll resend your confirmation."
 "Tax, Duty, Customs, VAT, Import, Tariff, Extra, Fee","Customs fees, Import tax","For international orders, customs fees may apply depending on your country's regulations."
-"Warranty, Guarantee, Quality, Broken, Fix, Insurance, Repair","Jewelry guarantee, Product warranty","Lumine jewelry comes with a [Number]-month warranty covering manufacturing defects."
-"Popular, Best, Trending, Hot, Famous, Fave, Top, Rated","Popular items, Most wanted, Trending","Want to see what everyone is loving? Check out the Lumine Best Sellers list here: [Link]."
-"Ring, Finger, Band, Knuckle, Size, Circle","Ring size, Bands, Finger size","Not sure of your ring size? Lumine has a printable size guide you can use: [Link]."
-"Necklace, Chain, Pendant, Choker, Locket, Neck","Chain length, Pendants","Our necklaces come in various lengths. Check the 'Specifications' tab on the product page."
-"Tshirt, Tee, Top, Shirt, Cotton, Apparel, Upper","Cotton tees, Tops, Shirts","Lumine tees are made for everyday comfort. Available in multiple colors and fits."
-"Hoodie, Jumper, Sweatshirt, Fleece, Winter, Warm, Pullover","Sweatshirts, Winter wear, Pullovers","Stay cozy in premium Lumine hoodies. They feature a soft inner lining and a relaxed fit."
+"Warranty, Guarantee, Quality, Broken, Fix, Insurance, Repair","Jewelry guarantee, Product warranty",Lumine jewelry comes with a [Number]-month warranty covering manufacturing defects.
+"Popular, Best, Trending, Hot, Famous, Fave, Top, Rated","Popular items, Most wanted, Trending",Want to see what everyone is loving? Check out the Lumine Best Sellers list here: [Link].
+"Ring, Finger, Band, Knuckle, Size, Circle","Ring size, Bands, Finger size",Not sure of your ring size? Lumine has a printable size guide you can use: [Link].
+"Necklace, Chain, Pendant, Choker, Locket, Neck","Chain length, Pendants",Our necklaces come in various lengths. Check the 'Specifications' tab on the product page.
+"Tshirt, Tee, Top, Shirt, Cotton, Apparel, Upper","Cotton tees, Tops, Shirts",Lumine tees are made for everyday comfort. Available in multiple colors and fits.
+"Hoodie, Jumper, Sweatshirt, Fleece, Winter, Warm, Pullover","Sweatshirts, Winter wear, Pullovers",Stay cozy in premium Lumine hoodies. They feature a soft inner lining and a relaxed fit.
 "Unavailable, Missing, Empty, None, Stock, Find","Is it sold out?, Not available","If a Lumine item is sold out, we usually try to restock within a few weeks. Keep an eye on our socials!"
-"Model, Height, Fit, Wear, Person, Size, Reference","Model height, What size is model wearing?","Model measurements and the sizes they are wearing are listed in the Lumine product descriptions."
-"Loyalty, Points, Reward, Member, Club, VIP, Perks, Benefit","How to earn points, Rewards","Join the Lumine Rewards Club to earn points on every purchase and unlock exclusive perks!"
+"Model, Height, Fit, Wear, Person, Size, Reference","Model height, What size is model wearing?",Model measurements and the sizes they are wearing are listed in the Lumine product descriptions.
+"Loyalty, Points, Reward, Member, Club, VIP, Perks, Benefit","How to earn points, Rewards",Join the Lumine Rewards Club to earn points on every purchase and unlock exclusive perks!
 "Thank you, Thanks, Appreciate, Helpful, Good, Awesome","Thanks, Much appreciated, Great help","You're very welcome! Happy shopping with Lumine, and let me know if you need anything else."
-"Bye, Cya, Goodbye, Later, End, Finish, Close, Done","Bye, That's all, See ya","Goodbye! Thanks for visiting Lumine. Have a wonderful day!"
+"Bye, Cya, Goodbye, Later, End, Finish, Close, Done","Bye, That's all, See ya",Goodbye! Thanks for visiting Lumine. Have a wonderful day!
