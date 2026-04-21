@@ -1,41 +1,79 @@
 import pandas as pd
+import re
+import random
+import os
 
-# load your data into a dataframe
-df = pd.read_csv("lumine_bot.csv")
-# print(df)
+# --- CONFIGURATION ---
+CSV_FILE = "lumine_bot.csv"
+LOG_FILE = "unanswered_queries.txt"
 
-print("Luminebot: Hello there,I am your lumine bot.Ask me about my collection.")
+# 1. Load the data with 'keep_default_na=False' to fix the 'nan' error
+try:
+    # This specifically prevents empty cells from being read as 'nan'
+    df = pd.read_csv(CSV_FILE, keep_default_na=False)
+except FileNotFoundError:
+    print(f"Error: '{CSV_FILE}' not found. Ensure it is in the same folder as this script.")
+    exit()
 
+def log_unknown_query(query):
+    """Saves queries the bot didn't understand to a file for later review."""
+    with open(LOG_FILE, "a") as f:
+        f.write(query + "\n")
+
+# --- 2. THE SOPHISTICATED ENGLISH WELCOME ---
+# This ignores Sheng/Swahili for the very first greeting
+welcome_row = df[df['Category'] == 'English_Welcome']
+if not welcome_row.empty:
+    # Pick a random exquisite greeting
+    welcome_options = str(welcome_row.iloc[0]['Responses']).split('|')
+    print(f"Luminebot: {random.choice(welcome_options)}")
+else:
+    print("Luminebot: Welcome to Lumine. How can I assist you with our prestigious collection today?")
+
+# --- 3. MAIN CONVERSATION LOOP ---
 while True:
-    # Get the user input and store into a variable
-    user_text = input("\n You:").lower()
+    raw_input = input("\nYou: ").lower().strip()
     
-
-    # 2. Check if the users want to exit
-    if user_text == "quit":
-        print("Luminebot:Goodbye! Nice to have been of service to you.Stay Fashionable.")
+    # Check for exit commands
+    if raw_input in ["quit", "exit", "bye", "kwaheri", "tutaonana"]:
+        print("Luminebot: Stay stylish. Goodbye!")
         break
 
-    # create a variable that will store the details structured in the csv file
+    # Clean up common Sheng/Slang typing habits for better matching
+    # This helps catch "natafuta" or "mkona" which users type as one word
+    user_text = raw_input.replace("natafuta", "na tafuta").replace("mkona", "mko na").replace("iko", "iko ")
+
     found_answer = False
+    possible_matches = []
 
-    # come up with a loop that loops through the entire data frame created before.
-    for index,row in df.iterrows():
-        # clean up the keywords from the CSV row
-        keywords_list = str(row['Keywords']).split(',')
+    # Search for matches using word boundaries (\b)
+    for index, row in df.iterrows():
+        # Skip the internal English_Welcome category during the chat loop
+        if row['Category'] == 'English_Welcome':
+            continue
 
-        # Below we check every keyword in that given row(Keywords)
-
+        keywords_list = str(row['Keywords']).split(';')
         for word in keywords_list:
             clean_word = word.strip().lower()
-
-            # if the keyword is inside of the user's sentence
-            if clean_word in user_text:
-                print("Luminebot:", row["Responses"])
+            
+            # Check if keyword exists as a whole word in user input
+            if clean_word and re.search(r'\b' + re.escape(clean_word) + r'\b', user_text):
+                possible_matches.append(row)
                 found_answer = True
-                break #stop looking at other answers since we already found a match
-        if found_answer:
-            break #stop looking at other answers since we already found a match
-    # 4. If we went through the entire/whole CSV file and never found any match of the keywords,we need to display a message to the user
-    if not found_answer:
-        print("Luminebot: Sorry,I don't know that one,Try asking for something else.")
+                break 
+    
+    # Handle the Response
+    if found_answer:
+        # Pick the last match found (usually the most specific)
+        best_match = possible_matches[-1]
+        
+        # Split the multiple responses by '|' and pick one at random
+        response_options = str(best_match['Responses']).split('|')
+        final_response = random.choice(response_options)
+        
+        print(f"Luminebot: {final_response}")
+    
+    else:
+        # If no answer, log it so you can see it in 'unanswered_queries.txt'
+        print("Luminebot: I'm not quite sure about that yet. I've noted it down so my team can teach me!")
+        log_unknown_query(raw_input)
